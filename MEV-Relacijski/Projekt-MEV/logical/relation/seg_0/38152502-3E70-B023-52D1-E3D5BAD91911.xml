@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ustanova_korisnik" directorySegmentName="seg_0" id="38152502-3E70-B023-52D1-E3D5BAD91911">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 13:29:09 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<sourcePk>85828319-0451-ABB9-82F5-05872053B9F5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>46311510-D3D4-0D5A-F36A-E0DC0C2C7D8E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6352B298-5270-FEBC-8063-9BEE49A57402</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

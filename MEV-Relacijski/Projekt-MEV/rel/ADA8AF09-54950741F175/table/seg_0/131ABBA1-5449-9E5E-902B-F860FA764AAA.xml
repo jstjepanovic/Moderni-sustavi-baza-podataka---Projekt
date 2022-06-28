@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="131ABBA1-5449-9E5E-902B-F860FA764AAA" name="Ustanova_korisnik">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ustanova_Ustanova_ID" id="CEBFFB20-F8FF-2A26-4198-B86FD1E7A86F">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CED314E6-E90E-88B4-9BF9-8B03BA50229C" referredColumn="7D09FB70-A3F3-EDFC-B0C3-97CC1E413E6B"/>
+</associations>
+</Column>
+<Column name="Korisnik_OIB" id="4CC402A1-B6BB-C36D-0B87-09A048C8E364">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5F50D98-FD49-2FC8-CA16-A04771849D30" referredColumn="BDC3003E-C5D0-47FA-5661-CD67A75FBDC5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B9BB6D1-C53D-37D3-4721-7A44A7856B4B" name="Ustanova_korisnik_PK">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEBFFB20-F8FF-2A26-4198-B86FD1E7A86F"/>
+<colUsage columnID="4CC402A1-B6BB-C36D-0B87-09A048C8E364"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB38D56B-EF27-3876-DB7A-CEFB4BAE2CBE" name="Ustanova_korisnik_Ustanova_FK">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>38152502-3E70-B023-52D1-E3D5BAD91911</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEBFFB20-F8FF-2A26-4198-B86FD1E7A86F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F785AD96-CBBF-DE9D-BD1E-59AAE6F8DEAC" name="Ustanova_korisnik_Korisnik_FK">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>38152502-3E70-B023-52D1-E3D5BAD91911</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CC402A1-B6BB-C36D-0B87-09A048C8E364"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

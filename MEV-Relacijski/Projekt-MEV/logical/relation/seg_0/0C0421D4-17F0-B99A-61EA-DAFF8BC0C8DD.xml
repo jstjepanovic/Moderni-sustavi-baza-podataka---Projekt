@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zavod_služba_veza" directorySegmentName="seg_0" id="0C0421D4-17F0-B99A-61EA-DAFF8BC0C8DD">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 12:41:35 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<sourcePk>CC1DB23B-5C0B-E33D-F01D-8CB7FD4810B1</sourcePk>
+<arc>0AB866C4-50E1-4CBD-ACF4-E7E8A8966DE0</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FDA3314A-678F-ED06-19BB-931FD2F54D3F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BD7EF96F-986D-0CED-8FEC-E76746022895</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

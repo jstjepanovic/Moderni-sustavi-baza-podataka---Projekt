@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10436FDA-5A72-76A5-49A6-FA93F6AD9A51" name="Ministarstvo">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>12240133-DF79-84B5-F899-2D4126187991</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ministarstvo_ID" id="BDF00FA6-84D0-FADD-7C6C-90DC542FC49B">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>ECD1A573-C33C-68DB-9BC7-40A15B1CC323</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="F43F4CCC-933C-011C-30ED-E33C535131B1">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>106ED4EB-65BE-0298-51A4-2CCA9AF9A7E6</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ministar" id="CBA1C192-CC7D-ED7B-C5B2-ECDE55649279">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>BA087F2B-1319-0BB0-A657-EDACDDD87609</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kontakt" id="E3040957-7C85-5D33-C234-2A77B2B0A405">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>AFB3B3F8-ABBD-C48B-639C-4B73CDDF3366</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="527BC2E0-DA3B-6CB4-DAFE-92943090BD65" name="Ministarstvo_PK">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>0682D1FD-ADFE-DDEB-4807-657B4976F591</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDF00FA6-84D0-FADD-7C6C-90DC542FC49B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

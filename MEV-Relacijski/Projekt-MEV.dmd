@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Projekt-MEV" id="1535694C-6EBD-B688-7163-312EF7984899" version="3.5">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 12:06:28 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1535694C-6EBD-B688-7163-312EF7984899</designId>
+</OSDM_Design>

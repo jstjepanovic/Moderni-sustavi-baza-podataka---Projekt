@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88F35ED1-E39E-0C17-5F8E-E2D59400BCEF" name="Sektor">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 12:33:05 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Sektor_ID" id="FA6597E9-6334-02C6-2FCB-2FC724D2A5C0">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 12:33:12 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Uprava_ID" id="49CB106B-3868-0C65-6AE5-DFBDD4C670AE">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 12:38:12 UTC</createdTime>
+<generatorID>4F39E836-1A95-4123-ED24-FE3F1488D545</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<referedAttribute>799589A2-6031-1745-9190-06F1D03D8E5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Načelnik" id="877B728E-FFE2-5492-9B9F-DA8822E143A1">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 12:40:56 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kontakt" id="42E4E1C8-0B76-EE54-1EDB-5225A5E3B12E">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 13:26:18 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv" id="54D8BA82-7F7E-E3FA-4A8B-C4EF4A92E073">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-13 12:25:38 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37475147-395F-2B2F-ACF3-407E2C84ECB8" name="Sektor PK">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 12:33:25 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA6597E9-6334-02C6-2FCB-2FC724D2A5C0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

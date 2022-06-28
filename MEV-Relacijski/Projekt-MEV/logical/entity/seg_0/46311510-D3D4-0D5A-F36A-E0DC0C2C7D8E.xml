@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46311510-D3D4-0D5A-F36A-E0DC0C2C7D8E" name="Ustanova">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 13:14:41 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ustanova_ID" id="7B5960F6-3E6B-52CD-3FCD-AAA6068E25EC">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 13:15:06 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Razina" id="258AF23D-7B45-7569-2329-B4BC27474D96">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 13:15:25 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv" id="BA7C3B7E-2B0A-9759-2B31-CA6D0570E30D">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 13:15:38 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Opis" id="B3F59C3E-FA3D-EE12-2B95-A691DEB3D20B">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 13:16:01 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ministarstvo_ID" id="882E941C-C0F4-7A80-737E-71489C6D82B9">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 13:24:08 UTC</createdTime>
+<generatorID>0BAE4160-D9A3-07E7-2777-D0F9B6AD2DE7</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<referedAttribute>ECD1A573-C33C-68DB-9BC7-40A15B1CC323</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kontakt" id="FDD99559-AC54-9DE9-FC6A-F5DBB4D5CE2C">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 13:24:55 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="85828319-0451-ABB9-82F5-05872053B9F5" name="Ustanova PK">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 13:15:24 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B5960F6-3E6B-52CD-3FCD-AAA6068E25EC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

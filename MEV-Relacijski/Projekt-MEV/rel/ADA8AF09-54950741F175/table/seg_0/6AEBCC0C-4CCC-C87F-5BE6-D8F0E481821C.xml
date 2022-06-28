@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6AEBCC0C-4CCC-C87F-5BE6-D8F0E481821C" name="Ustanova_lokacija">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ustanova_Ustanova_ID" id="E18E9988-84E0-4C78-AF11-B9DEB9EFCDDC">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A477A30D-C6A3-C55A-1D89-3A90D4FADAAC" referredColumn="7D09FB70-A3F3-EDFC-B0C3-97CC1E413E6B"/>
+</associations>
+</Column>
+<Column name="Lokacija_Lokacija_ID" id="88F9F355-CE40-C56F-657C-86D1ECFDEAA3">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17D8936E-C13F-41F8-1563-5105BF685706" referredColumn="C83A446F-F4F8-0D6A-B1D3-6D90A7FC78BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="767FC5A2-4013-A998-EACF-00D5C6910A9B" name="Ustanova_lokacija_PK">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E18E9988-84E0-4C78-AF11-B9DEB9EFCDDC"/>
+<colUsage columnID="88F9F355-CE40-C56F-657C-86D1ECFDEAA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FAC9872-53DC-1FFD-E47C-3C985B657DB9" name="Ustanova_lokacija_Ustanova_FK">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>F6EA2F05-5CE4-2238-DC7B-7D7CB3377829</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E18E9988-84E0-4C78-AF11-B9DEB9EFCDDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85C25BAC-DE4C-98F6-5B8B-C29C1FAEAA70" name="Ustanova_lokacija_Lokacija_FK">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>F6EA2F05-5CE4-2238-DC7B-7D7CB3377829</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88F9F355-CE40-C56F-657C-86D1ECFDEAA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

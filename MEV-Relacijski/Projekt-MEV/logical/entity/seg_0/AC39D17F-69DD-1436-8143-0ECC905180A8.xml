@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC39D17F-69DD-1436-8143-0ECC905180A8" name="Korištenje usluge">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 13:45:45 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Datum_usluge" id="52ED45D8-C7E0-FC1C-A1E9-E404348FC07E">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 13:46:30 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OIB" id="A735FD53-E696-F8FD-1A97-F4F01C547E6C">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 13:47:20 UTC</createdTime>
+<generatorID>0000BBAA-E53C-2988-335E-C8F14301351A</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<referedAttribute>4677264B-C6B5-5FC4-0024-C0A8753168F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zaposlenik_ID" id="5F2E184E-AD33-962D-644D-F76B4618725C">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 13:47:46 UTC</createdTime>
+<generatorID>49784C50-ED19-2ECB-BA57-634AE9B59062</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<referedAttribute>6FE419A8-EF08-4BAE-7CEA-40DCDCF84813</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Usluga_ID" id="B27536A9-409A-85F1-B55F-564F79B66329">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 13:48:31 UTC</createdTime>
+<generatorID>8165C45D-FC40-17E7-F71A-CE0553E415E3</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<referedAttribute>A6872A00-59C8-3F73-5BA8-640FC37EFB67</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ustanova_ID" id="CF3FF868-11A3-AAB4-7E58-BE235042F2C6">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 13:48:31 UTC</createdTime>
+<generatorID>8165C45D-FC40-17E7-F71A-CE0553E415E3</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<referedAttribute>CC7190D4-D3CC-0364-B827-2A781CB16844</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Osiguranje" id="4B303C2D-EC6B-B43C-D6F9-2926124D3819">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 15:18:09 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D1ECD9E5-65CC-138E-D692-FC087363457B" name="Korištenje usluge PK">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-01 13:47:20 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A735FD53-E696-F8FD-1A97-F4F01C547E6C</attributeRef>
+<attributeRef>5F2E184E-AD33-962D-644D-F76B4618725C</attributeRef>
+<attributeRef>B27536A9-409A-85F1-B55F-564F79B66329</attributeRef>
+<attributeRef>CF3FF868-11A3-AAB4-7E58-BE235042F2C6</attributeRef>
+<attributeRef>52ED45D8-C7E0-FC1C-A1E9-E404348FC07E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

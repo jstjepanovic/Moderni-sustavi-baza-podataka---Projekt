@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79219647-9B10-843A-75B0-A6A186807FAE" name="Zaposlenik">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>51AA2D12-228B-18DA-DFA0-B2B4AB8D5A0C</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zaposlenik_ID" id="C95EA6F2-5FF8-472E-9689-C03ECEF8CA45">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>6FE419A8-EF08-4BAE-7CEA-40DCDCF84813</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="318522F4-1DE0-BE18-6543-C72FD4133D9F">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>72554845-7316-609F-E997-71F4CFE32E23</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="AA7EEB26-20F1-23C4-0473-C9F4EE059AE7">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>A03C39B4-6B41-0246-7274-0C345B43EFB7</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="7E79EC07-F833-6CFE-C317-92EE88CA36BC">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>58330A65-8824-A16E-1851-C627D8EE69CF</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_telefona" id="4AB79076-8E93-396D-2BEB-F7103BD0C958">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>749CFAA8-4E20-6CE0-8949-D007AE51226A</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_zaposlenja" id="7C00FC90-B9AB-49FC-44AE-042192946EA4">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>AA2921AB-C586-90C0-1BDC-487A12E0073E</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Služba_Služba_ID" id="517A5D9F-5E4F-A224-14F5-612D5EBD0C29">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>9FEAF78F-2312-6F89-EFA2-D0674D55E394</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74EFD247-E550-8F0D-0541-8B279D97F314" referredColumn="C80BA18D-A6C7-DAE7-FBB2-2A77B29B4D85"/>
+</associations>
+</Column>
+<Column name="Ustanova_Ustanova_ID" id="BF0800EE-1311-FCCD-4757-66E00C106477">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>9061D2BD-A290-09E5-2BED-86382A25E721</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="645AAA78-D5D9-2C67-E447-CD184AEF45CF" referredColumn="7D09FB70-A3F3-EDFC-B0C3-97CC1E413E6B"/>
+</associations>
+</Column>
+<Column name="Uloga" id="AC4734C3-F668-83D7-9E81-F493F064E4D9">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>422D1BBE-419A-677C-0959-DBA5A72618DA</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CE84874-F483-0D77-BF1C-9BB15B4607C9" name="Zaposlenik_PK">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>40C96697-EFE7-CA14-F2FB-7D4B9FEAACC7</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C95EA6F2-5FF8-472E-9689-C03ECEF8CA45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5451C8B8-2BD2-A961-4EF9-CABFC092A1FB" name="Zaposlenik_Služba_FK">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>DAEE7AEA-AF25-0AB9-6875-F4225553CF2F</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="517A5D9F-5E4F-A224-14F5-612D5EBD0C29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05A8D164-D8CD-A888-A470-9BA8AD6D4269" name="Zaposlenik_Ustanova_FK">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>5748BD33-A923-D186-79CC-40B5C70E33EE</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF0800EE-1311-FCCD-4757-66E00C106477"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

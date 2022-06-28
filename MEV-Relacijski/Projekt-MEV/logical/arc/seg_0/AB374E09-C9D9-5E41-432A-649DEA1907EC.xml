@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="AB374E09-C9D9-5E41-432A-649DEA1907EC" name="Arc_2">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-13 14:27:02 UTC</createdTime>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<engineerTo>
+<item key="ADA8AF09-21DC-9D11-5810-54950741F175" value="true"/>
+</engineerTo>
+<entity>51AA2D12-228B-18DA-DFA0-B2B4AB8D5A0C</entity>
+<relations>
+<relationID>5748BD33-A923-D186-79CC-40B5C70E33EE</relationID>
+<relationID>DAEE7AEA-AF25-0AB9-6875-F4225553CF2F</relationID>
+</relations>
+</Arc>

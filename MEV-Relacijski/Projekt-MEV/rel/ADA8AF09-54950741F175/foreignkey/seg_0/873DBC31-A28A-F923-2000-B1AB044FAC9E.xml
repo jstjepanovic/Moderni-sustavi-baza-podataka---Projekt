@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="873DBC31-A28A-F923-2000-B1AB044FAC9E" containerWithKeyObject="1B694612-88F0-678C-5FD8-1C94F4EAF437" localFKIndex="44115FD9-8F4F-3929-F321-A4C62789527B" name="Uprava_Ministarstvo_FK">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>7787069D-0BCF-4665-6CF1-9082B8FF193B</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<referredTableLongName>Ministarstvo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>10436FDA-5A72-76A5-49A6-FA93F6AD9A51</referredTableID>
+<keyObject>527BC2E0-DA3B-6CB4-DAFE-92943090BD65</keyObject>
+<referredKeyID>527BC2E0-DA3B-6CB4-DAFE-92943090BD65</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Ministarstvo_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

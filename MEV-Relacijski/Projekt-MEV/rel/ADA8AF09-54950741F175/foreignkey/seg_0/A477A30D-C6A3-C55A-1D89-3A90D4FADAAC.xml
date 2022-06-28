@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A477A30D-C6A3-C55A-1D89-3A90D4FADAAC" containerWithKeyObject="6AEBCC0C-4CCC-C87F-5BE6-D8F0E481821C" localFKIndex="7FAC9872-53DC-1FFD-E47C-3C985B657DB9" name="Ustanova_lokacija_Ustanova_FK">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>F6EA2F05-5CE4-2238-DC7B-7D7CB3377829</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<referredTableLongName>Ustanova</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D9FE665-45BC-387C-CDD5-D9A24F1E7853</referredTableID>
+<keyObject>1D832EE9-1E65-6C52-21D2-B8BE63948745</keyObject>
+<referredKeyID>1D832EE9-1E65-6C52-21D2-B8BE63948745</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Ustanova_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

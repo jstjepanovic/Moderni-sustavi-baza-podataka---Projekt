@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAE135FE-EF38-1DA5-9A53-8C3237DAAA83" name="Zavodi_i_agencije">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>FDA3314A-678F-ED06-19BB-931FD2F54D3F</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zavod_agencija_ID" id="72046B3F-D832-1061-5F2B-65A856B95D7E">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>0CFF7DD4-6944-3490-A4F1-57144F1DDE7C</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ministarstvo_Ministarstvo_ID" id="249D9DA9-71EB-461D-4362-D9E1159B2278">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>1F5AE508-D4F2-4846-D4D0-5F8179EF29B8</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C248A31-E6F2-C35A-6424-9CF1E0903B1C" referredColumn="BDF00FA6-84D0-FADD-7C6C-90DC542FC49B"/>
+</associations>
+</Column>
+<Column name="Ravnatelj" id="76C31299-9B90-B7CF-F574-6EA3FE8B456E">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>40FBB59F-04C7-1AD6-4FDC-66FEFFBB3288</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kontakt" id="F74CE5B0-8A19-4146-5C03-8FED74F238B4">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>F84AA9C0-8CD5-470D-F4FA-BFC4D639EC42</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="C5E50622-B2E4-625D-253E-FE310A1E6FA4">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-13 12:25:51 UTC</createdTime>
+<generatorID>14A192D8-FDC2-0D49-0F99-310C5EFF1FE8</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56D5A0F3-99D6-CA73-EED5-27A4B885B099" name="Zavodi_i_agencije_PK">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>CC1DB23B-5C0B-E33D-F01D-8CB7FD4810B1</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72046B3F-D832-1061-5F2B-65A856B95D7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4C6932F-A9D4-1D0B-BA86-D4B631CF8377" name="Zavodi_i_agencije_Ministarstvo_FK">
+<createdBy>Josip</createdBy>
+<createdTime>2022-05-03 12:25:57 UTC</createdTime>
+<generatorID>CA642506-2ED1-C384-9255-19AB158EC55C</generatorID>
+<ownerDesignName>Projekt-MEV</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="249D9DA9-71EB-461D-4362-D9E1159B2278"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
