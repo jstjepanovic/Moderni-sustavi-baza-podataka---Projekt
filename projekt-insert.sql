@@ -749,4 +749,5 @@ insert into korištenje_usluge values(17, 41, '35162427651', 99, '03.03.2021', 'N
 insert into korištenje_usluge values(12, 41, '44857254783', 100, '23.08.2021', 'Da');
 insert into korištenje_usluge values(13, 41, '61379030049', 100, '05.01.2022', 'Da');
 insert into korištenje_usluge values(14, 41, '94765510181', 100, '14.01.2022', 'Da');
+
 commit;
